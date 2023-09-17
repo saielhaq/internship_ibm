@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'netools',
+  title: 'netoolz',
 
-  projectId: '7pcw61ns',
+  projectId: 'gs6v8pxt',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
