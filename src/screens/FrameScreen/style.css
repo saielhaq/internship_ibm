@@ -1,3 +1,15 @@
+*{
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav a{
+  color: #dc3c3c;
+}
+
 .frame-screen {
   background-color: #f2ecec;
   display: flex;
@@ -105,7 +117,7 @@
 
 .frame-screen .text-wrapper {
   color: #971818;
-  font-family: "Passion One", Helvetica;
+  font-family: "NATS-Regular", Helvetica;
   font-size: 60px;
   font-weight: 400;
   left: 553px;
@@ -344,7 +356,7 @@
 
 .frame-screen .about-us-2 {
   color: #dc3c3c;
-  font-family: "Passion One", Helvetica;
+  font-family: "NATS-Regular", Helvetica;
   font-size: 60px;
   font-weight: 400;
   left: 0;
@@ -376,7 +388,7 @@
 
 .frame-screen .support-2 {
   color: #dc3c3c;
-  font-family: "Passion One", Helvetica;
+  font-family: "NATS-Regular", Helvetica;
   font-size: 60px;
   font-weight: 400;
   left: 0;
@@ -414,7 +426,6 @@
 }
 
 .frame-screen .text-wrapper-3 {
-  color: #a8a4a4;
   font-family: "NATS-Regular", Helvetica;
   font-size: 25px;
   font-weight: 400;
@@ -456,7 +467,6 @@
 }
 
 .frame-screen .your-mobile-number {
-  color: #a8a4a4;
   font-family: "NATS-Regular", Helvetica;
   font-size: 25px;
   font-weight: 400;
@@ -482,7 +492,7 @@
 }
 
 .frame-screen .how-can-we-help-you {
-  color: #a8a4a4;
+  color: #171717;
   font-family: "NATS-Regular", Helvetica;
   font-size: 25px;
   font-weight: 400;
@@ -495,6 +505,22 @@
   top: 0;
   width: 353px;
 }
+
+input{
+  color: #171717;
+  background: transparent;
+  border: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+input::placeholder{
+  color: #2a2a2a;
+}
+
+
 
 .frame-screen .text-wrapper-4 {
   color: #801111;

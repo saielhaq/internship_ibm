@@ -12,7 +12,7 @@ export const FrameScreen = () => {
     <div className="frame-screen">
       <div className="frame-2">
         <div className="overlap">
-          <div className="homme">
+          <div className="homme" id="home">
             <p className="keep-it-secure-your">Keep it Secure Votre gardien numérique</p>
             <p className="protect-your-online">
               Protégez votre monde en ligne avec Keep it Secure. Des outils de sécurité essentiels à portée de main.
@@ -26,7 +26,7 @@ export const FrameScreen = () => {
           </div>
           <p className="element-KIS-inc-privacy">© 2023 KIS Inc. Confidentialité / Conditions / Plan du site</p>
           <img className="vector" alt="Vector" src="https://c.animaapp.com/u16r7Zwc/img/vector-1.svg" />
-          <div className="tools">
+          <div className="tools" id="tools">
             <div className="overlap-group">
               <div className="text-wrapper">Outils</div>
               <div className="fille-inc">
@@ -41,11 +41,13 @@ export const FrameScreen = () => {
                 </div>
               </div>
               <div className="s-peed">
-                <div className="overlap-2">
-                  <div className="rectangle-4" />
-                  <GaugeSvgrepoCom />
-                </div>
-                <div className="speed-test">test de rapidité</div>
+                <a href="https://kis-speedtest.netlify.app/">
+                  <div className="overlap-2">
+                    <div className="rectangle-4" />
+                    <GaugeSvgrepoCom />
+                  </div>
+                  <div className="speed-test">test de rapidité</div>
+                </a>
               </div>
               <div className="PS-test">
                 <div className="overlap-3">
@@ -90,7 +92,7 @@ export const FrameScreen = () => {
             </div>
           </div>
           <img className="vector-2" alt="Vector" src="https://c.animaapp.com/u16r7Zwc/img/vector.svg" />
-          <div className="about-us">
+          <div className="about-us" id="about-us">
             <p className="meet-the-keep-it">
               Rencontrez l&#39;équipe Keep it Secure : Abdo, Saad, Haytam, ​​Rokaya et Ayoub. Nous sommes des étudiants
               passionnés en développement Web qui ont décidé de mettre nos compétences au service de l&#39;amélioration
@@ -106,47 +108,27 @@ export const FrameScreen = () => {
               src="https://c.animaapp.com/u16r7Zwc/img/whatsapp-image-2023-09-11-at-16-25-1.png"
             />
           </div>
-          <div className="support">
-            <div className="support-2">Soutien</div>
+          <div className="support" id="support">
+            <div className="support-2">Support</div>
             <p className="need-help-with">
               Besoin d&#39;aide pour la sécurité en ligne ? Contactez-nous à tout moment. Votre sécurité compte !
             </p>
             <div className="your-name-wrapper">
-              <div className="text-wrapper-3">votre nom</div>
+              <input type="text" placeholder="Votre nom" className="text-wrapper-3 contactname" />
             </div>
             <div className="overlap-5">
               <div className="rectangle-6" />
-              <div className="text-wrapper-3">Ton téléphone</div>
+              <input type="phone" placeholder="Ton téléphone" className="text-wrapper-3 contactphone" />
             </div>
             <div className="overlap-6">
               <div className="rectangle-6" />
-              <div className="your-mobile-number">Ton email</div>
+              <input type="email" placeholder="Ton email" className="your-mobile-number contactemail" />
             </div>
             <div className="how-can-we-help-you-wrapper">
-              <p className="how-can-we-help-you">Comment pouvons-nous vous aider ?</p>
+              <input type="text" placeholder="Comment pouvons-nous vous aider ?" className="how-can-we-help-you contactmessage" />
             </div>
-            <div className="text-wrapper-4">testtest@gmail.com</div>
-            <div className="text-wrapper-5">0600000000</div>
-            <img
-              className="facebook-svgrepo-com"
-              alt="Facebook svgrepo com"
-              src="https://c.animaapp.com/u16r7Zwc/img/facebook-svgrepo-com-1.svg"
-            />
-            <img
-              className="twitter-svgrepo"
-              alt="Twitter svgrepo"
-              src="https://c.animaapp.com/u16r7Zwc/img/twitter-154-svgrepo-com-1.svg"
-            />
-            <img
-              className="youtube-svgrepo"
-              alt="Youtube svgrepo"
-              src="https://c.animaapp.com/u16r7Zwc/img/youtube-168-svgrepo-com-1.svg"
-            />
-            <img
-              className="instagram-fill"
-              alt="Instagram fill"
-              src="https://c.animaapp.com/u16r7Zwc/img/instagram-fill-svgrepo-com-1.svg"
-            />
+            {/* <div className="text-wrapper-4">testtest@gmail.com</div> */}
+            {/* <div className="text-wrapper-5">0600000000</div> */}
           </div>
           <img className="blob" alt="Blob" src="https://c.animaapp.com/u16r7Zwc/img/blob--5--1.svg" />
           <div className="send-message-wrapper">
@@ -163,20 +145,37 @@ export const FrameScreen = () => {
             <div className="text-wrapper-7">K</div>
           </div>
           <div className="navbar">
-            <div className="text-wrapper-8">Home</div>
-            <div className="tools-2">Outils</div>
-            <div className="about-us-3">À propos de nous</div>
-            <div className="support-3">Soutien</div>
+            <div className="text-wrapper-8 nav"><a href="#">Home</a></div>
+            <div className="tools-2 nav"><a href="#tools">Outils</a></div>
+            <div className="about-us-3 nav"><a href="#about-us">À propos de nous</a></div>
+            <div className="support-3 nav"><a href="#support">Support</a></div>
           </div>
           <div className="overlap-wrapper">
+
+            {/* ------------------------------------------------------------- */}
             <div className="overlap-7">
-              <div className="text-wrapper-9">FR</div>
-              <img
-                className="design-sans-titre"
-                alt="Design sans titre"
-                src="https://c.animaapp.com/u16r7Zwc/img/design-sans-titre--1--removebg-preview-1@2x.png"
-              />
+              <a href="https://google.com" className="uk-flag">
+                <img
+                  className="design-sans-titre"
+                  alt="Design sans titre"
+                  src="https://cdn-icons-png.flaticon.com/512/299/299688.png"
+                  />
+              </a>
             </div>
+            {/* ------------------------------------------------------------- */}
+
+            
+            {/* <div className="overlap-7">
+              <a href="#tools" className="uk-flag">
+                <img
+                  className="design-sans-titre"
+                  alt="Design sans titre"
+                  src="https://cdn-icons-png.flaticon.com/512/299/299753.png"
+                />
+              </a>
+            </div> */}
+
+
           </div>
         </div>
       </div>

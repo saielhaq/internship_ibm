@@ -9,10 +9,7 @@ import "./style.css";
 export const Frame = ({ className }) => {
   return (
     <div className={`frame ${className}`}>
-      {/* <div className="rectangle"/> */}
-      <div className="rectangle">
-        <button href="https://www.google.com"></button>
-      </div>
+      <div className="rectangle"/>
     </div>
   );
 };
