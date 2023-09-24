@@ -1,0 +1,1 @@
+export { GaugeSvgrepoCom } from "./GaugeSvgrepoCom";

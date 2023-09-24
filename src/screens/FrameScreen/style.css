@@ -1,0 +1,777 @@
+.frame-screen {
+  background-color: #f2ecec;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame-screen .frame-2 {
+  background-color: #f2ecec;
+  height: 3194px;
+  position: relative;
+  width: 1440px;
+}
+
+.frame-screen .overlap {
+  height: 3100px;
+  left: 0;
+  position: absolute;
+  top: 94px;
+  width: 1440px;
+}
+
+.frame-screen .homme {
+  height: 412px;
+  left: 90px;
+  position: absolute;
+  top: 120px;
+  width: 1254px;
+}
+
+.frame-screen .keep-it-secure-your {
+  color: #801111;
+  font-family: "Lexend Mega", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -1.2px;
+  line-height: 72px;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  width: 643px;
+}
+
+.frame-screen .protect-your-online {
+  color: #b92727;
+  font-family: "Lexend Deca", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 46px;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 289px;
+  width: 551px;
+}
+
+.frame-screen .undraw-mobile {
+  height: 412px;
+  left: 785px;
+  position: absolute;
+  top: 0;
+  width: 465px;
+}
+
+.frame-screen .element-KIS-inc-privacy {
+  color: #bba8a8;
+  font-family: "Lexend Deca", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 413px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3045px;
+  width: 594px;
+}
+
+.frame-screen .vector {
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 2252px;
+  width: 79px;
+}
+
+.frame-screen .tools {
+  height: 612px;
+  left: 100px;
+  position: absolute;
+  top: 706px;
+  width: 1242px;
+}
+
+.frame-screen .overlap-group {
+  background-image: url(https://c.animaapp.com/u16r7Zwc/img/rectangle-2.svg);
+  background-size: 100% 100%;
+  height: 612px;
+  position: relative;
+  width: 1240px;
+}
+
+.frame-screen .text-wrapper {
+  color: #971818;
+  font-family: "Passion One", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 553px;
+  letter-spacing: -0.6px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: 135px;
+}
+
+.frame-screen .fille-inc {
+  height: 193px;
+  left: 973px;
+  position: absolute;
+  top: 367px;
+  width: 202px;
+}
+
+.frame-screen .overlap-group-2 {
+  height: 193px;
+  position: relative;
+  width: 200px;
+}
+
+.frame-screen .frame-6 {
+  left: 25px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.frame-screen .file-secure-svgrepo {
+  height: 90px;
+  left: 55px;
+  position: absolute;
+  top: 33px;
+  width: 90px;
+}
+
+.frame-screen .file-encryption {
+  color: #971818;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 146px;
+  width: 200px;
+}
+
+.frame-screen .s-peed {
+  height: 189px;
+  left: 973px;
+  position: absolute;
+  top: 120px;
+  width: 202px;
+}
+
+.frame-screen .overlap-2 {
+  height: 142px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.frame-screen .rectangle-4 {
+  background-color: #efa3a3;
+  border-radius: 10px;
+  box-shadow: inset 8px 4px 3px #00000040;
+  height: 135px;
+  left: 10px;
+  position: absolute;
+  top: 7px;
+  width: 129px;
+}
+
+.frame-screen .speed-test {
+  color: #971818;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 142px;
+  width: 200px;
+}
+
+.frame-screen .PS-test {
+  height: 192px;
+  left: 520px;
+  position: absolute;
+  top: 117px;
+  width: 202px;
+}
+
+.frame-screen .overlap-3 {
+  height: 192px;
+  position: relative;
+  width: 200px;
+}
+
+.frame-screen .frame-instance {
+  left: 26px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.frame-screen .img {
+  height: 100px;
+  left: 50px;
+  position: absolute;
+  top: 28px;
+  width: 100px;
+}
+
+.frame-screen .text-wrapper-2 {
+  color: #971818;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 145px;
+  width: 200px;
+}
+
+.frame-screen .PS-gen {
+  height: 192px;
+  left: 68px;
+  position: absolute;
+  top: 117px;
+  width: 202px;
+}
+
+.frame-screen .IP {
+  height: 192px;
+  left: 520px;
+  position: absolute;
+  top: 368px;
+  width: 202px;
+}
+
+.frame-screen .ip-address-svgrepo {
+  height: 90px;
+  left: 57px;
+  position: absolute;
+  top: 25px;
+  width: 90px;
+}
+
+.frame-screen .dns {
+  height: 190px;
+  left: 68px;
+  position: absolute;
+  top: 370px;
+  width: 202px;
+}
+
+.frame-screen .overlap-4 {
+  height: 190px;
+  position: relative;
+  width: 200px;
+}
+
+.frame-screen .rectangle-5 {
+  background-color: #efa3a3;
+  border-radius: 10px;
+  box-shadow: inset 8px 4px 3px #00000040;
+  height: 135px;
+  left: 36px;
+  position: absolute;
+  top: 7px;
+  width: 129px;
+}
+
+.frame-screen .dns-svgrepo-com {
+  height: 150px !important;
+  left: 25px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 150px !important;
+}
+
+.frame-screen .DNS-lookup {
+  color: #971818;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 143px;
+  width: 200px;
+}
+
+.frame-screen .vector-2 {
+  height: 145px;
+  left: 1165px;
+  position: absolute;
+  top: 1520px;
+  width: 135px;
+}
+
+.frame-screen .about-us {
+  height: 697px;
+  left: 96px;
+  position: absolute;
+  top: 1491px;
+  width: 1109px;
+}
+
+.frame-screen .meet-the-keep-it {
+  color: #000000;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 124px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  position: absolute;
+  top: 582px;
+  width: 981px;
+}
+
+.frame-screen .about-us-2 {
+  color: #dc3c3c;
+  font-family: "Passion One", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.6px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 392px;
+}
+
+.frame-screen .whatsapp-image {
+  height: 460px;
+  left: 124px;
+  object-fit: cover;
+  position: absolute;
+  top: 90px;
+  width: 979px;
+}
+
+.frame-screen .support {
+  height: 491px;
+  left: 85px;
+  position: absolute;
+  top: 2389px;
+  width: 1249px;
+}
+
+.frame-screen .support-2 {
+  color: #dc3c3c;
+  font-family: "Passion One", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.6px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 247px;
+}
+
+.frame-screen .need-help-with {
+  color: #000000;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  position: absolute;
+  top: 145px;
+  width: 477px;
+}
+
+.frame-screen .your-name-wrapper {
+  background-color: #efa3a3;
+  border-radius: 10px;
+  box-shadow: -5px 4px 4px #00000040;
+  height: 43px;
+  left: 753px;
+  position: absolute;
+  top: 150px;
+  width: 479px;
+}
+
+.frame-screen .text-wrapper-3 {
+  color: #a8a4a4;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  height: 36px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 135px;
+}
+
+.frame-screen .overlap-5 {
+  height: 43px;
+  left: 753px;
+  position: absolute;
+  top: 210px;
+  width: 480px;
+}
+
+.frame-screen .rectangle-6 {
+  background-color: #efa3a3;
+  border-radius: 10px;
+  box-shadow: -5px 4px 4px #00000040;
+  height: 43px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 479px;
+}
+
+.frame-screen .overlap-6 {
+  height: 43px;
+  left: 753px;
+  position: absolute;
+  top: 270px;
+  width: 480px;
+}
+
+.frame-screen .your-mobile-number {
+  color: #a8a4a4;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  height: 36px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 102px;
+}
+
+.frame-screen .how-can-we-help-you-wrapper {
+  background-color: #efa3a3;
+  border-radius: 10px;
+  box-shadow: -5px 4px 4px #00000040;
+  height: 161px;
+  left: 754px;
+  position: absolute;
+  top: 330px;
+  width: 479px;
+}
+
+.frame-screen .how-can-we-help-you {
+  color: #a8a4a4;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  height: 36px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 353px;
+}
+
+.frame-screen .text-wrapper-4 {
+  color: #801111;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 228px;
+  white-space: nowrap;
+  width: 206px;
+}
+
+.frame-screen .text-wrapper-5 {
+  color: #801111;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 280px;
+  white-space: nowrap;
+  width: 206px;
+}
+
+.frame-screen .facebook-svgrepo-com {
+  height: 50px;
+  left: 54px;
+  position: absolute;
+  top: 359px;
+  width: 50px;
+}
+
+.frame-screen .twitter-svgrepo {
+  height: 50px;
+  left: 135px;
+  position: absolute;
+  top: 359px;
+  width: 50px;
+}
+
+.frame-screen .youtube-svgrepo {
+  height: 50px;
+  left: 216px;
+  position: absolute;
+  top: 359px;
+  width: 50px;
+}
+
+.frame-screen .instagram-fill {
+  height: 50px;
+  left: 297px;
+  position: absolute;
+  top: 359px;
+  width: 50px;
+}
+
+.frame-screen .blob {
+  height: 157px;
+  left: 1281px;
+  position: absolute;
+  top: 2943px;
+  width: 159px;
+}
+
+.frame-screen .bob {
+  height: 3100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.frame-screen .send-message-wrapper {
+  align-items: center;
+  background-color: #b92727;
+  border-radius: 7px;
+  box-shadow: inset 5px 4px 4px #00000040;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 838px;
+  padding: 10px;
+  position: absolute;
+  top: 2901px;
+}
+
+.frame-screen .send-message {
+  color: #ffffff;
+  font-family: "NATS-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-screen .menu {
+  background-color: #ffffff;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.frame-screen .group {
+  height: 48px;
+  left: 38px;
+  position: absolute;
+  top: 7px;
+  width: 73px;
+}
+
+.frame-screen .overlap-group-3 {
+  height: 41px;
+  left: 28px;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.frame-screen .ellipse {
+  background-color: #801111;
+  border-radius: 7.47px/7.31px;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 15px;
+}
+
+.frame-screen .polygon {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 21px;
+  width: 15px;
+}
+
+.frame-screen .text-wrapper-6 {
+  color: #dc3c3c;
+  font-family: "HoloLens MDL2 Assets-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 26px;
+}
+
+.frame-screen .text-wrapper-7 {
+  color: #dc3c3c;
+  font-family: "HoloLens MDL2 Assets-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 26px;
+}
+
+.frame-screen .navbar {
+  height: 20px;
+  left: 426px;
+  position: absolute;
+  top: 16px;
+  width: 590px;
+}
+
+.frame-screen .text-wrapper-8 {
+  color: #dc3c3c;
+  font-family: "Lexend Deca", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 88px;
+}
+
+.frame-screen .tools-2 {
+  color: #dc3c3c;
+  font-family: "Lexend Deca", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 121px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.frame-screen .about-us-3 {
+  color: #dc3c3c;
+  font-family: "Lexend Deca", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 238px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 215px;
+}
+
+.frame-screen .support-3 {
+  color: #dc3c3c;
+  font-family: "Lexend Deca", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 486px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 96px;
+}
+
+.frame-screen .overlap-wrapper {
+  height: 56px;
+  left: 1342px;
+  position: absolute;
+  top: 1px;
+  width: 75px;
+}
+
+.frame-screen .overlap-7 {
+  height: 56px;
+  position: relative;
+  width: 73px;
+}
+
+.frame-screen .text-wrapper-9 {
+  color: #dc3c3c;
+  font-family: "Lexend Mega", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: -0.6px;
+  line-height: 67.7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 51px;
+}
+
+.frame-screen .design-sans-titre {
+  height: 26px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 22px;
+  width: 29px;
+}

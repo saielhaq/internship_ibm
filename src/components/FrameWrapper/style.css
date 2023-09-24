@@ -1,0 +1,16 @@
+.frame-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.frame-wrapper .div {
+  background-color: #efa3a3;
+  border-radius: 10px;
+  box-shadow: inset 8px 4px 3px #00000040;
+  height: 135px;
+  position: relative;
+  width: 129px;
+}
