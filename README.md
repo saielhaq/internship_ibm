@@ -37,13 +37,13 @@ npm install
 <p>5. Then run this command to open the project on a local server:</p>
 
 ```
-npm start
+npm run dev
 ```
 
 <p>6. The project will open on the browser at:</p>
 
 ```
-http://localhost:3000
+http://localhost:1234
 ```
 
   
