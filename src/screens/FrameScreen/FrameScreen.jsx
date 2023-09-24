@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { DivWrapper } from "../../components/DivWrapper";
 import { Frame } from "../../components/Frame";
 import { Frame5 } from "../../components/Frame5";
@@ -8,6 +9,20 @@ import { DnsSvgrepoCom1 } from "../../icons/DnsSvgrepoCom1";
 import "./style.css";
 
 export const FrameScreen = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0mhaibi', 'template_3evjcty', form.current, 'vgTsUvfTn07Djmk89')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
   return (
     <div className="frame-screen">
       <div className="frame-2">
@@ -113,27 +128,32 @@ export const FrameScreen = () => {
             <p className="need-help-with">
               Besoin d&#39;aide pour la sécurité en ligne ? Contactez-nous à tout moment. Votre sécurité compte !
             </p>
-            <div className="your-name-wrapper">
-              <input type="text" placeholder="Votre nom" className="text-wrapper-3 contactname" />
-            </div>
-            <div className="overlap-5">
-              <div className="rectangle-6" />
-              <input type="phone" placeholder="Ton téléphone" className="text-wrapper-3 contactphone" />
-            </div>
-            <div className="overlap-6">
-              <div className="rectangle-6" />
-              <input type="email" placeholder="Ton email" className="your-mobile-number contactemail" />
-            </div>
-            <div className="how-can-we-help-you-wrapper">
-              <input type="text" placeholder="Comment pouvons-nous vous aider ?" className="how-can-we-help-you contactmessage" />
-            </div>
-            {/* <div className="text-wrapper-4">testtest@gmail.com</div> */}
-            {/* <div className="text-wrapper-5">0600000000</div> */}
+            <form ref={form} onSubmit={sendEmail} className="your-form-class">
+              <div className="your-name-wrapper">
+                <label htmlFor="user_name" className="label-class"></label>
+                <input type="text" placeholder="Votre nom" className="text-wrapper-3 contactname" id="user_name" name="user_name" />
+              </div>
+              <div className="overlap-5">
+                <div className="rectangle-6 saad">
+                  <label htmlFor="user_phone" className="label-class"></label>
+                  <input type="tel" placeholder="Ton téléphone" className="text-wrapper-3 contactphone" id="user_phone" name="user_phone" />
+                </div>
+              </div>
+              <div className="overlap-6">
+                <div className="rectangle-6" />
+                <label htmlFor="user_email" className="label-class"></label>
+                <input type="email" placeholder="Ton email" className="your-mobile-number contactemail" id="user_email" name="user_email" />
+              </div>
+              <div className="how-can-we-help-you-wrapper">
+                <label htmlFor="user_message" className="label-class"></label>
+                <input type="text" placeholder="Comment pouvons-nous vous aider ?" className="how-can-we-help-you contactmessage" id="user_message" name="user_message"></input>
+              </div>
+              <div className="send-message-wrapper">
+                <input type="submit" value="Envoyer le message" className="send-message" />
+              </div>
+            </form>
           </div>
-          <img className="blob" alt="Blob" src="https://c.animaapp.com/u16r7Zwc/img/blob--5--1.svg" />
-          <div className="send-message-wrapper">
-            <div className="send-message">Envoyer le message</div>
-          </div>
+          
         </div>
         <div className="menu">
           <div className="group">

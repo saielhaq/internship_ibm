@@ -2,6 +2,10 @@
   scroll-behavior: smooth;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 a{
   text-decoration: none;
 }
@@ -458,6 +462,11 @@ a{
   width: 479px;
 }
 
+.saad{
+  text-align: left;
+  width: 100px;
+}
+
 .frame-screen .overlap-6 {
   height: 43px;
   left: 753px;
@@ -477,7 +486,8 @@ a{
   position: absolute;
   text-align: center;
   top: 4px;
-  width: 102px;
+  text-align: left;
+  width: 100;
 }
 
 .frame-screen .how-can-we-help-you-wrapper {
@@ -488,6 +498,7 @@ a{
   left: 754px;
   position: absolute;
   top: 330px;
+  text-align: left;
   width: 479px;
 }
 
@@ -503,10 +514,13 @@ a{
   position: absolute;
   text-align: center;
   top: 0;
-  width: 353px;
+  text-align: left;
+  width: 1000px;
 }
 
-input{
+input[type=text], input[type=email], input[type=tel]{
+  height: 900px;
+  width: 900px;
   color: #171717;
   background: transparent;
   border: none;
@@ -598,32 +612,6 @@ input::placeholder{
   width: 1440px;
 }
 
-.frame-screen .send-message-wrapper {
-  align-items: center;
-  background-color: #b92727;
-  border-radius: 7px;
-  box-shadow: inset 5px 4px 4px #00000040;
-  display: inline-flex;
-  gap: 10px;
-  justify-content: center;
-  left: 838px;
-  padding: 10px;
-  position: absolute;
-  top: 2901px;
-}
-
-.frame-screen .send-message {
-  color: #ffffff;
-  font-family: "NATS-Regular", Helvetica;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 32.5px;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
 
 .frame-screen .menu {
   background-color: #ffffff;
@@ -800,4 +788,16 @@ input::placeholder{
   position: absolute;
   top: 22px;
   width: 29px;
+}
+
+
+
+.send-message{
+  font-family: 'NATS-Regular', Helvetica;
+  font-size: 20px;
+  background-color: #efa3a3;
+  margin: 560px 900px;
+  border-radius: 15px;
+  width: 160px;
+  height: 50px;
 }
