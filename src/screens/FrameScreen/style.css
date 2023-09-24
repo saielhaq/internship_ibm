@@ -5,6 +5,10 @@
 body{
   overflow-x: hidden;
 }
+font-face {
+  font-family:'Passion One', cursive;
+  ;
+}
 
 a{
   text-decoration: none;
@@ -360,7 +364,7 @@ a{
 
 .frame-screen .about-us-2 {
   color: #dc3c3c;
-  font-family: "NATS-Regular", Helvetica;
+  font-family: "Passion One", Helvetica;
   font-size: 60px;
   font-weight: 400;
   left: 0;
@@ -383,6 +387,7 @@ a{
 }
 
 .frame-screen .support {
+  font-family: "Passion One-Regular", Helvetica;
   height: 491px;
   left: 85px;
   position: absolute;
@@ -392,7 +397,7 @@ a{
 
 .frame-screen .support-2 {
   color: #dc3c3c;
-  font-family: "NATS-Regular", Helvetica;
+  font-family: "Passion One", Helvetica;
   font-size: 60px;
   font-weight: 400;
   left: 0;
@@ -433,8 +438,8 @@ a{
   font-family: "NATS-Regular", Helvetica;
   font-size: 25px;
   font-weight: 400;
-  height: 36px;
-  left: 0;
+  height: 39px;
+  left: 12px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -476,11 +481,12 @@ a{
 }
 
 .frame-screen .your-mobile-number {
+
   font-family: "NATS-Regular", Helvetica;
   font-size: 25px;
   font-weight: 400;
   height: 36px;
-  left: 0;
+  left: 12;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -489,6 +495,19 @@ a{
   text-align: left;
   width: 100;
 }
+.box {
+  height: 3115px;
+  width: 1583px;
+}
+
+.box .bob {
+  height: 3100px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+}
+
 
 .frame-screen .how-can-we-help-you-wrapper {
   background-color: #efa3a3;
@@ -521,7 +540,7 @@ a{
 input[type=text], input[type=email], input[type=tel]{
   height: 900px;
   width: 900px;
-  color: #171717;
+  color: #423e3e;
   background: transparent;
   border: none;
 }
@@ -641,15 +660,15 @@ input::placeholder{
 .frame-screen .ellipse {
   background-color: #801111;
   border-radius: 7.47px/7.31px;
-  height: 15px;
+  height: 14px;
   left: 0;
   position: absolute;
   top: 10px;
-  width: 15px;
+  width: 14px;
 }
 
 .frame-screen .polygon {
-  height: 20px;
+  height: 15px;
   left: 0;
   position: absolute;
   top: 21px;
@@ -795,9 +814,17 @@ input::placeholder{
 .send-message{
   font-family: 'NATS-Regular', Helvetica;
   font-size: 20px;
-  background-color: #efa3a3;
   margin: 560px 900px;
-  border-radius: 15px;
-  width: 160px;
-  height: 50px;
+  background-color: #b92727;
+  border-radius: 7px;
+  height: 53px;
+  width: 179px;
+  box-shadow: inset 5px 4px 10px  rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  
+}
+input::placeholder {
+  color: #a8a4a4 ;
+  opacity: 1; /* Firefox */
 }
