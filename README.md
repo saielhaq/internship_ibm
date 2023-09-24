@@ -53,7 +53,8 @@ http://localhost:3000
 
 Technologies used in the project:
 
+*   Figma
+*   Javascript
 *   React
-*   Tailwind CSS
-*   NMAP
-*   Python
+*   JQuerry
+*   API
