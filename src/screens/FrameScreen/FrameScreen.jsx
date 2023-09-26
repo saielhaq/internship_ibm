@@ -157,6 +157,8 @@ export const FrameScreen = () => {
           </div>
           
         </div>
+        
+          <img class="bob" src="https://c.animaapp.com/u16r7Zwc/img/bob.png" />
         <div className="menu">
           <div className="group">
             <div className="overlap-group-3">
