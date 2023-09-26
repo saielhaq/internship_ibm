@@ -25,13 +25,13 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
-  overflow: hidden;
+  width: 1945px;
+  overflow-y: hidden;
 }
 
 .frame-screen .frame-2 {
   background-color: #f2ecec;
-  width: 1920px;
+  width: 1945px;
   height: 3194px;
   position: relative;
   
@@ -43,7 +43,7 @@ a{
   left: 0;
   position: absolute;
   top: 94px;
-  width: 1920px;
+  width: 1945px;
 }
 
 .frame-screen .homme {
@@ -339,7 +339,7 @@ a{
 
 .frame-screen .vector-2 {
   height: 145px;
-  left: 1335px;
+  left: 1835px;
   position: absolute;
   top: 1520px;
   width: 135px;
@@ -636,7 +636,7 @@ input::placeholder{
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1920px;
 }
 
 
