@@ -106,9 +106,6 @@ export const FrameScreen = () => {
               </div>
             </div>
           </div>
-          <div>
-            <img src="https://c.animaapp.com/u16r7Zwc/img/bob.png"></img>
-          </div>
           <img className="vector-2" alt="Vector" src="https://c.animaapp.com/u16r7Zwc/img/vector.svg" />
           <div className="about-us" id="about-us">
             <p className="meet-the-keep-it">
@@ -131,6 +128,7 @@ export const FrameScreen = () => {
             <p className="need-help-with">
               Besoin d&#39;aide pour la sécurité en ligne ? Contactez-nous à tout moment. Votre sécurité compte !
             </p>
+            <div class="inpute"></div>
             <form ref={form} onSubmit={sendEmail} className="your-form-class">
               <div className="your-name-wrapper">
                 <label htmlFor="user_name" className="label-class"></label>
@@ -155,6 +153,7 @@ export const FrameScreen = () => {
                 <input type="submit" value="Envoyer le message" className="send-message" />
               </div>
             </form>
+            
           </div>
           
         </div>
