@@ -902,3 +902,6 @@ input::placeholder {
   white-space: nowrap;
 }
 
+.support, .tools{
+  z-index: 2;
+}
