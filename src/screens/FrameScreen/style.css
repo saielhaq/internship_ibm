@@ -2,10 +2,7 @@
   scroll-behavior: smooth;
 }
 
-body{
-  overflow-x: hidden;
-  
-}
+
 font-face {
   font-family:'Passion One', cursive;
   
@@ -316,11 +313,11 @@ a{
 }
 
 .frame-screen .dns-svgrepo-com {
-  height: 150px !important;
-  left: 25px !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 150px !important;
+  height: 90px;
+  left: 55px;
+  position: absolute;
+  top: 33px;
+  width: 90px;
 }
 
 .frame-screen .DNS-lookup {

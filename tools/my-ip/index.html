@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>What's My IP</title>
+</head>
+<body>
+    
+    <section> 
+        <div>
+            <img class="bob" src="img/group-4.png"> 
+        <img class="logo" src="img/logo.png">
+         
+        <div class="card">
+            <div>
+                <a href="https://keepitsecure.netlify.app/"><img src="img/exit-svgrepo-com 1.png" class="exite"></a>
+                <h2>What's My IP</h2>
+                    <div class="rectangle">
+                        <h3>My ip is :</h3>
+                        <div class="ip"></div>
+                        </div>
+                    </div>
+                    
+            <button id="btn">Get IP Address</button>            
+        </div>
+        </div>div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $.getJSON("https://ipinfo.io", function(data){
+                    $(".ip").text(data.ip)
+                })
+            })        
+        })
+    </script>
+
+</body>
+</html>

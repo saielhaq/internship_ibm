@@ -39,11 +39,12 @@ export const FrameScreen = () => {
               src="https://c.animaapp.com/u16r7Zwc/img/undraw-mobile-encryption-re-yw3o-1.svg"
             />
           </div>
-          <p className="element-KIS-inc-privacy">© 2023 KIS Inc. Confidentialité / Conditions / Plan du site</p>
+          <p className="element-KIS-inc-privacy">© 2023 KIS Inc.</p>
           <img className="vector" alt="Vector" src="https://c.animaapp.com/u16r7Zwc/img/vector-1.svg" />
           <div className="tools" id="tools">
             <div className="overlap-group">
               <div className="text-wrapper">Outils</div>
+              <a href="https://kis-encrypt.netlify.app/">
               <div className="fille-inc">
                 <div className="overlap-group-2">
                   <Frame className="frame-6" />
@@ -52,18 +53,23 @@ export const FrameScreen = () => {
                     alt="File secure svgrepo"
                     src="https://c.animaapp.com/u16r7Zwc/img/file-secure-svgrepo-com-1.svg"
                   />
-                  <div className="file-encryption">cryptage de fichiers</div>
+                  <div className="file-encryption">Cryptage de fichiers</div>
                 </div>
               </div>
+              </a>
+
+
               <div className="s-peed">
                 <a href="https://kis-speedtest.netlify.app/">
                   <div className="overlap-2">
                     <div className="rectangle-4" />
                     <GaugeSvgrepoCom />
                   </div>
-                  <div className="speed-test">test de rapidité</div>
+                  <div className="speed-test">Test de rapidité</div>
                 </a>
               </div>
+
+              <a href="https://kis-pwdtest.netlify.app/">
               <div className="PS-test">
                 <div className="overlap-3">
                   <FrameWrapper className="frame-instance" />
@@ -72,9 +78,12 @@ export const FrameScreen = () => {
                     alt="Lock password"
                     src="https://c.animaapp.com/u16r7Zwc/img/lock-password-unlocked-svgrepo-com-1.svg"
                   />
-                  <p className="text-wrapper-2">test de mot de passe</p>
+                  <p className="text-wrapper-2">Test de mot de passe</p>
                 </div>
               </div>
+              </a>
+
+              <a href="https://kis-pwdgen.netlify.app/">
               <div className="PS-gen">
                 <div className="overlap-3">
                   <DivWrapper className="frame-instance" />
@@ -83,9 +92,12 @@ export const FrameScreen = () => {
                     alt="Password"
                     src="https://c.animaapp.com/u16r7Zwc/img/password-minimalistic-input-svgrepo-com--1--1.svg"
                   />
-                  <p className="text-wrapper-2">générateur de mot de passe</p>
+                  <p className="text-wrapper-2">Générateur de mot de passe</p>
                 </div>
               </div>
+              </a>
+
+              <a href="https://kis-myip.netlify.app/">
               <div className="IP">
                 <div className="overlap-3">
                   <Frame5 className="frame-instance" />
@@ -97,13 +109,20 @@ export const FrameScreen = () => {
                   <div className="text-wrapper-2">Mon IP</div>
                 </div>
               </div>
+              </a>
+
+              <a href="https://kis-textcrypt.netlify.app/">
               <div className="dns">
                 <div className="overlap-4">
                   <div className="rectangle-5" />
-                  <DnsSvgrepoCom1 className="dns-svgrepo-com" />
-                  <div className="DNS-lookup">Recherche DNS</div>
+                  {/* <DnsSvgrepoCom1 className="dns-svgrepo-com" /> */}
+                  <img src="https://c.animaapp.com/u16r7Zwc/img/file-secure-svgrepo-com-1.svg" className="dns-svgrepo-com" alt="" />
+                  <div className="DNS-lookup">Cryptage de text</div>
                 </div>
               </div>
+              </a>
+
+
             </div>
           </div>
           <img className="vector-2" alt="Vector" src="https://c.animaapp.com/u16r7Zwc/img/vector.svg" />
@@ -169,7 +188,7 @@ export const FrameScreen = () => {
             <div className="text-wrapper-7">K</div>
           </div>
           <div className="navbar">
-            <div className="text-wrapper-8 nav"><a href="#">Home</a></div>
+            <div className="text-wrapper-8 nav"><a href="#">Accueil</a></div>
             <div className="tools-2 nav"><a href="#tools">Outils</a></div>
             <div className="about-us-3 nav"><a href="#about-us">À propos de nous</a></div>
             <div className="support-3 nav"><a href="#support">Support</a></div>
@@ -178,7 +197,7 @@ export const FrameScreen = () => {
 
             {/* ------------------------------------------------------------- */}
             <div className="overlap-7">
-              <a href="https://google.com" className="uk-flag">
+              <a href="https://eng-keepitsecure.netlify.app" className="uk-flag">
                 <img
                   className="design-sans-titre"
                   alt="Design sans titre"
@@ -190,7 +209,7 @@ export const FrameScreen = () => {
 
             
             {/* <div className="overlap-7">
-              <a href="#tools" className="uk-flag">
+              <a href="https://eng-keepitsecure.netlify.app" className="uk-flag">
                 <img
                   className="design-sans-titre"
                   alt="Design sans titre"

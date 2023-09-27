@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cryptage et Décryptage de Fichier</title>
+    <link rel="icon" href="img/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js"></script>
+</head>
+<body>
+    <section> 
+        <div>
+            <img class="bob" src="img/group-4.png"> 
+            <img class="logo" src="img/logo.png">
+         
+         <div class="card">
+              <div>
+                  <a href="https://keepitsecure.netlify.app/"><img src="img/exit-svgrepo-com 1.png" class="exite"></a>
+                  <h2> Cryptage et Décryptage de Fichier</h2>
+                
+                
+
+                <label for="fileInput">
+                    <img class="lufy" src="img/import.svg">
+                    Select file
+                 <input type="file" id="fileInput" accept=".txt" class="zoro" />
+                </label>
+
+             <button class="bn1" onclick="encryptFile()">Crypter</button>
+             <button class="bn2" onclick="decryptFile()">Décrypter</button>
+    
+             
+             <div id="output"></div>
+             <div id="message">Done!</div>
+             <h3>Résultat :</h3>
+              <button class="tel" onclick="downloadFile()"><img class="Usoppe" src="img/ddowl.svg" ></button>
+            </div>
+            </div>
+        
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
